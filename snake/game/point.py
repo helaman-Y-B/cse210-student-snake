@@ -8,10 +8,10 @@ class Point:
         _x (integer): The horizontal distance.
         _y (Point): The vertical distance.
     """
-    
+
     def __init__(self, x, y):
         """The class constructor.
-        
+
         Args:
             self (Point): An instance of Point.
             x (integer): A horizontal distance.
@@ -48,10 +48,10 @@ class Point:
 
     def get_x(self):
         """Gets the horizontal distance.
-        
+
         Args:
             self (Point): An instance of Point.
-            
+
         Returns:
             integer: The horizontal distance.
         """
@@ -59,10 +59,10 @@ class Point:
 
     def get_y(self):
         """Gets the vertical distance.
-        
+
         Args:
             self (Point): An instance of Point.
-            
+
         Returns:
             integer: The vertical distance.
         """
@@ -70,10 +70,10 @@ class Point:
 
     def reverse(self):
         """Gets a new Point that is the reverse of this one.
-        
+
         Args:
             self (Point): An instance of Point.
-            
+
         Returns:
             Point: A new Point that is reversed.
         """
